@@ -1,0 +1,6 @@
+C:\Sites\abc.org\bin\Step9001Report.dll
+C:\Sites\abc.org\bin\Step9001Report.pdb
+C:\Sites\abc.org\bin\Step9001Report.xml
+C:\Sites\abc.org\DesktopModules\Step9001Report\obj\Release\Step9001Report.dll
+C:\Sites\abc.org\DesktopModules\Step9001Report\obj\Release\Step9001Report.pdb
+C:\Sites\abc.org\DesktopModules\Step9001Report\obj\Release\Step9001Report.csprojResolveAssemblyReference.cache

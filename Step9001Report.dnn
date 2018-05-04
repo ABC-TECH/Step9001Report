@@ -1,0 +1,103 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="Step9001Report" type="Module" version="01.01.07">
+      <friendlyName>Step9001Report</friendlyName>
+      <description>DotNetNuke Corporation Step9001Report module</description>
+      <iconFile>Images/icon_extensions.gif</iconFile>
+      <owner>
+        <name>DotNetNuke Corporation</name>
+        <organization>DotNetNuke Corporation</organization>
+        <url>http://www.dotnetnuke.com</url>
+        <email>training@dotnetnuke.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">06.00.00</dependency>
+      </dependencies>
+
+      <components>
+        <component type="Script">
+          <scripts>
+            <basePath>DesktopModules\Step9001Report</basePath>
+            <script type="Install">
+              <path>Providers\DataProviders\SqlDataProvider</path>
+              <name>00.00.01.SqlDataProvider</name>
+              <version>00.00.01</version>
+            </script>
+            <script type="UnInstall">
+              <path>Providers\DataProviders\SqlDataProvider</path>
+              <name>Uninstall.SqlDataProvider</name>
+              <version>00.00.01</version>
+            </script>
+          </scripts>
+        </component>
+
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/Step9001Report</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+
+        <component type="Module">
+          <desktopModule>
+            <moduleName>Step9001Report</moduleName>
+            <foldername>Step9001Report</foldername>
+            <businessControllerClass>DotNetNuke.Modules.Step9001Report.Components.FeatureController</businessControllerClass>
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>Step9001Report</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/Step9001Report/View.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                  <moduleControl>
+                    <controlKey>Edit</controlKey>
+                    <controlSrc>DesktopModules/Step9001Report/Edit.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle>Edit Content</controlTitle>
+                    <controlType>Edit</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                    <supportsPopUps>True</supportsPopUps>
+                  </moduleControl>
+                  <moduleControl>
+                    <controlKey>Settings</controlKey>
+                    <controlSrc>DesktopModules/Step9001Report/Settings.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle>Step9001Report Settings</controlTitle>
+                    <controlType>Edit</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <basePath>bin</basePath>
+            <assembly>
+              <name>Step9001Report.dll</name>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

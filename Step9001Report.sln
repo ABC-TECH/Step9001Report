@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{00000000-0000-0000-0000-000000000000}") = "Step9001Report", "Step9001Report.csproj", "{D093F526-6A52-4CA9-B6B1-D20BAE9B6425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D093F526-6A52-4CA9-B6B1-D20BAE9B6425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D093F526-6A52-4CA9-B6B1-D20BAE9B6425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D093F526-6A52-4CA9-B6B1-D20BAE9B6425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D093F526-6A52-4CA9-B6B1-D20BAE9B6425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
