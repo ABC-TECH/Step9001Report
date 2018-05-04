@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Step9001Report" type="Module" version="01.01.07">
+    <package name="Step9001Report" type="Module" version="01.01.08">
       <friendlyName>Step9001Report</friendlyName>
       <description>DotNetNuke Corporation Step9001Report module</description>
       <iconFile>Images/icon_extensions.gif</iconFile>
