@@ -186,6 +186,7 @@
             <asp:DropDownList ID="ddlProgram" runat="server" AutoPostBack="False">
               <asp:ListItem Text="Step" Value = "Step" Selected ="True"></asp:ListItem>
             <asp:ListItem Text="STEP for Suppliers" Value = "STEP for Suppliers"></asp:ListItem>
+             <asp:ListItem Text="First STEP" Value="First STEP"></asp:ListItem>
             </asp:DropDownList>
         </li>
         <li class="nav-itemSTEP">
